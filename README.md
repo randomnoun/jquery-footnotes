@@ -1,5 +1,9 @@
 [![npm version](https://img.shields.io/npm/v/jquery-footnotes.svg)](https://www.npmjs.com/package/jquery-footnotes)
 
+## Work in progress
+
+Caveat: This is still a WIP, don't use this.
+
 ## Overview
 
 **jquery-footnotes** is a jquery plugin to manage footnotes.
@@ -60,27 +64,6 @@ $("p").footnotes();
 
 Most of these aren't implemented yet.
 
-
-'referenceSelector' : '.footnote-ref',
-            'footnoteSelector'  : '.fn',
-            
-            // none of these are implemented but might be if I ever npm this thing:
-            
-            'footnoteContainer' : null, // separate element that contains the .fn elements. maybe. look who knows.
-            'referenceTemplate' : null,
-            'footnoteTemplate' : null,
-            // overrides the animations
-            'shine': 'yellow', // probably need something a bit more obvious than this on the back links, as the fnref divs are pretty small
-            'onClickReference' : null, // an event handler when the fn ref is clicked
-            'onClickBack' : null, // an event handler when the fn back is clicked
-
-            // lifecycle events. because I think a footnote plugin needs these for some reason.
-            'beforeInit' : null,   // an event handler called after template initialisation
-            'afterInit' : null,   // an event handler called after template initialisation
-            'beforeDestroy' : null,
-            'afterDestroy' : null, 
-            
-            
 
 | Option | Data-Attr | Defaults | Type | Description |
 | --- | --- | --- | --- | --- |
